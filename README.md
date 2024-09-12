@@ -1,6 +1,6 @@
 # Elearning App 📚
 
-_Title to be decided later_
+<!-- _Title to be decided later_ -->
 
 ## Description
 
@@ -12,7 +12,7 @@ This repository contains a modern, cross-platform eLearning application built us
 - **Dart**: The programming language used with Flutter.
 - **Clean Architecture**: Ensures a clear separation of concerns with well-defined layers.
 - **Flutter BLoC**: State management solution for handling the app's state effectively.
-- **Firebase**: Backend services for authentication, database, and storage.
+- **NestJs**: Backend services for handling API requests and data management.
 - **REST API**: For connecting the app with various online services.
 - **Hive**: Local storage solution for caching and offline support.
 
@@ -32,8 +32,8 @@ Follow these steps to set up the project locally:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/YourUsername/elearning-app.git
-   cd elearning-app
+   git clone git@github.com:EunoiaBT/ebt_flutter_elearning.git
+   cd ebt_flutter_elearning
    ```
 
 2. **Install dependencies**:
@@ -111,8 +111,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions, suggestions, or issues, feel free to open an issue or reach out via email:
 
-- **Email**: [youremail@example.com](mailto:youremail@example.com)
-- **Twitter**: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
+- **Email**: [fsd.rabgay@gmail.com](mailto:fsd.rabgay@gmail.com)
 
 ## Acknowledgements 🙌
 
