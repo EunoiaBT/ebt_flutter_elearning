@@ -1,4 +1,5 @@
 import 'package:ebt_flutter_elearning/core/constants/ebt_color.dart';
+import 'package:ebt_flutter_elearning/core/themes/custom/app_bar_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/chip_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/text_theme.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +26,7 @@ class EbtAppTheme {
     textTheme: EbtTextTheme.lightTextTheme,
     chipTheme: EbtChipTheme.lightChipTheme,
     scaffoldBackgroundColor: EbtColor.appBG,
-    appBarTheme: GfxAppBarTheme.lightAppBarTheme,
+    appBarTheme: EbtAppBarTheme.lightAppBarTheme,
     checkboxTheme: GfxCheckboxTheme.lightCheckboxTheme,
     bottomSheetTheme: GfxBottomSheetTheme.lightBottomSheetTheme,
     elevatedButtonTheme: GfxElevatedButtonTheme.lightElevatedButtonTheme,
@@ -43,7 +44,7 @@ class EbtAppTheme {
     textTheme: EbtTextTheme.darkTextTheme,
     chipTheme: EbtChipTheme.darkChipTheme,
     scaffoldBackgroundColor: EbtColor.dark,
-    appBarTheme: GfxAppBarTheme.darkAppBarTheme,
+    appBarTheme: EbtAppBarTheme.darkAppBarTheme,
     checkboxTheme: GfxCheckboxTheme.darkCheckboxTheme,
     bottomSheetTheme: GfxBottomSheetTheme.darkBottomSheetTheme,
     elevatedButtonTheme: GfxElevatedButtonTheme.darkElevatedButtonTheme,
