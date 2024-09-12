@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 class CacheStore {
   final SharedPreferences _pref;
 
-  const CacheStore(this._pref);
+  const CacheStore({required SharedPreferences pref}) : _pref = pref;
 
   Future<void> cacheFirstTimer() async {
     await _pref.setBool(EbtCacheStoreKey.isFirstTimer, true);

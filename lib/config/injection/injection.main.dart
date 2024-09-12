@@ -4,6 +4,15 @@ final sl = GetIt.instance;
 
 Future<void> initializeDependencies() async {
   await initUtility();
+  await initCacheStore();
+}
+
+Future<void> initCacheStore() async {
+  sl.registerLazySingleton(
+    () => CacheStore(
+      pref: sl(),
+    ),
+  );
 }
 
 Future<void> initUtility() async {
