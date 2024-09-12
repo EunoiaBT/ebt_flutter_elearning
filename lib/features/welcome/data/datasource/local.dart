@@ -1,21 +1,19 @@
-import 'package:ebt_flutter_elearning/core/utils/typedef.dart';
-
 abstract class LocalDataSource {
   const LocalDataSource();
 
-  ResultFuture<void> cacheFirstTimer();
-  ResultFuture<bool> checkIfUserIsFirstTimer();
+  Future<void> cacheFirstTimer();
+  Future<bool> checkIfUserIsFirstTimer();
 }
 
 class LocalDataSourceImpl implements LocalDataSource {
   @override
-  ResultFuture<void> cacheFirstTimer() {
+  Future<void> cacheFirstTimer() {
     // TODO: implement cacheFirstTimer
     throw UnimplementedError();
   }
 
   @override
-  ResultFuture<bool> checkIfUserIsFirstTimer() {
+  Future<bool> checkIfUserIsFirstTimer() {
     // TODO: implement checkIfUserIsFirstTimer
     throw UnimplementedError();
   }
