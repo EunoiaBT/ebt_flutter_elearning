@@ -1,8 +1,15 @@
+import 'package:ebt_flutter_elearning/config/injection/injection.dart';
 import 'package:ebt_flutter_elearning/core/themes/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 
-void main() {
+Future<void> main() async {
+  // Initialize widget binding
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Initialize dependencies
+  await initializeDependencies();
+
   runApp(const MyApp());
 }
 
