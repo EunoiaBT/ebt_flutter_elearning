@@ -1,4 +1,4 @@
-import 'package:ebt_flutter_elearning/core/constant/ebt_color.dart';
+import 'package:ebt_flutter_elearning/core/constants/ebt_color.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter/material.dart';
 

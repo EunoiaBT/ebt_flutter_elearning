@@ -1,4 +1,4 @@
-import 'package:ebt_flutter_elearning/core/error/exception.dart';
+import 'package:ebt_flutter_elearning/core/errors/exception.dart';
 import 'package:equatable/equatable.dart';
 
 abstract class Failure extends Equatable {
