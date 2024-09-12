@@ -1,0 +1,3 @@
+class CacheFirstTimer {
+  const CacheFirstTimer();
+}
