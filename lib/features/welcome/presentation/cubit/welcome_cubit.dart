@@ -1,6 +1,7 @@
 import 'package:bloc/bloc.dart';
+import 'package:ebt_flutter_elearning/features/welcome/domain/usecase/cache_first_timer.dart';
+import 'package:ebt_flutter_elearning/features/welcome/domain/usecase/check_if_user_first_timer.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter/physics.dart';
 import 'package:meta/meta.dart';
 
 part 'welcome_state.dart';
@@ -31,12 +32,12 @@ class WelcomeCubit extends Cubit<WelcomeState> {
 
   // Method to check if user is first timer
   Future<void> checkingIfUserIsFirstTimer() async {
-    emit(const CheckingIfUserIsFirstTimer());
+    emit(const CheckingIfUserIsAlreadyCached());
     final result = await _checkIfUserIsFirstTimer();
 
     result.fold(
-      (failure) => emit(const OnboardingStatus(isFirstTimer: false)),
-      (status) => emit(OnboardingStatus(isFirstTimer: status)),
+      (failure) => emit(const CacheStatus(isFirstTimer: false)),
+      (status) => emit(CacheStatus(isFirstTimer: status)),
     );
   }
 }

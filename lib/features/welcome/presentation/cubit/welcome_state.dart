@@ -14,21 +14,25 @@ class CachingFirstTimer extends WelcomeState {
   const CachingFirstTimer();
 }
 
+class CheckingIfUserIsAlreadyCached extends WelcomeState {
+  const CheckingIfUserIsAlreadyCached();
+}
+
 // CacheFirstTimer
-class CacheFirstTimer extends WelcomeState {
-  const CacheFirstTimer();
+class CacheTheFirstTimer extends WelcomeState {
+  const CacheTheFirstTimer();
 }
 
 // Check FirstTimer
-class CheckIfUserIsFirstTimer extends WelcomeState {
-  const CheckIfUserIsFirstTimer();
+class CheckIfUserIsAlreadyCached extends WelcomeState {
+  const CheckIfUserIsAlreadyCached();
 }
 
 // Error
 class CachingError extends WelcomeState {
-  const CachingError({required this.message});
-
   final String message;
+
+  const CachingError({required this.message});
 
   @override
   List<String> get props => [message];
@@ -37,6 +41,16 @@ class CachingError extends WelcomeState {
 // Success
 class CachingSuccess extends WelcomeState {
   const CachingSuccess();
+}
+
+// Status
+class CacheStatus extends WelcomeState {
+  final bool isFirstTimer;
+
+  const CacheStatus({required this.isFirstTimer});
+
+  @override
+  List<bool> get props => [isFirstTimer];
 }
 
 class WelcomePageChanged extends WelcomeState {
