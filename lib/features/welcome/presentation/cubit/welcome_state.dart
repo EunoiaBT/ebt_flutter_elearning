@@ -8,7 +8,11 @@ abstract class WelcomeState extends Equatable {
   List<Object?> get props => [];
 }
 
-final class WelcomeInitial extends WelcomeState {}
+class WelcomeInitial extends WelcomeState {}
+
+class CachingFirstTimer extends WelcomeState {
+  const CachingFirstTimer();
+}
 
 // CacheFirstTimer
 class CacheFirstTimer extends WelcomeState {
@@ -18,4 +22,30 @@ class CacheFirstTimer extends WelcomeState {
 // Check FirstTimer
 class CheckIfUserIsFirstTimer extends WelcomeState {
   const CheckIfUserIsFirstTimer();
+}
+
+// Error
+class CachingError extends WelcomeState {
+  const CachingError({required this.message});
+
+  final String message;
+
+  @override
+  List<String> get props => [message];
+}
+
+// Success
+class CachingSuccess extends WelcomeState {
+  const CachingSuccess();
+}
+
+class WelcomePageChanged extends WelcomeState {
+  final int index;
+
+  const WelcomePageChanged({
+    this.index = 0,
+  });
+
+  @override
+  List<Object> get props => [index];
 }
