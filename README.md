@@ -116,3 +116,7 @@ For any questions, suggestions, or issues, feel free to open an issue or reach o
 ## Acknowledgements 🙌
 
 A big thank you to the open-source community for providing the tools and resources that made this project possible.
+
+## Design Inpiration
+
+Check this out [Figma Link](<https://www.figma.com/design/Tp80mNZUJdSgY0Fiuen06T/ELearning-App-UI-Design-%7C-Online-Cource-App-UI-(Community)?node-id=1-161&node-type=frame&t=vOj9WApElKeJZElf-0>)
