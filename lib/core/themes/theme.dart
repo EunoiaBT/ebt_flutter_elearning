@@ -5,6 +5,7 @@ import 'package:ebt_flutter_elearning/core/themes/custom/checkbox_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/chip_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/elevated_button_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/outlined_button_theme.dart';
+import 'package:ebt_flutter_elearning/core/themes/custom/switch_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/text_field_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/text_theme.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +38,7 @@ class EbtAppTheme {
     elevatedButtonTheme: EbtElevatedButtonTheme.lightElevatedButtonTheme,
     outlinedButtonTheme: EbtOutlinedButtonTheme.lightOutlinedButtonTheme,
     inputDecorationTheme: EbtTextFieldTheme.lightInputDecorationTheme,
-    switchTheme: GfxSwitchTheme.lightSwitchTheme,
+    switchTheme: EbtSwitchTheme.lightSwitchTheme,
   );
 
   // Dark Theme
@@ -55,6 +56,6 @@ class EbtAppTheme {
     elevatedButtonTheme: EbtElevatedButtonTheme.darkElevatedButtonTheme,
     outlinedButtonTheme: EbtOutlinedButtonTheme.darkOutlinedButtonTheme,
     inputDecorationTheme: EbtTextFieldTheme.darkInputDecorationTheme,
-    switchTheme: GfxSwitchTheme.darkSwitchTheme,
+    switchTheme: EbtSwitchTheme.darkSwitchTheme,
   );
 }

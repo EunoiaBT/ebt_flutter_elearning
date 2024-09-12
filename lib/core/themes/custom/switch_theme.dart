@@ -1,8 +1,8 @@
 import 'package:ebt_flutter_elearning/core/constants/ebt_color.dart';
 import 'package:flutter/material.dart';
 
-class GfxSwitchTheme {
-  GfxSwitchTheme._();
+class EbtSwitchTheme {
+  EbtSwitchTheme._();
 
   static SwitchThemeData lightSwitchTheme = SwitchThemeData(
     thumbColor: WidgetStateProperty.resolveWith((states) {
