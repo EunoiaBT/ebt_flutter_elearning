@@ -1,0 +1,3 @@
+class CacheStore {
+  const CacheStore();
+}
