@@ -16,8 +16,13 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Center(
-        child: Text('Hello, World!'),
+      home: Scaffold(
+        body: Center(
+          child: Text(
+            'Hello, World!',
+            style: TextStyle(fontFamily: 'Aeonik', fontSize: 30),
+          ),
+        ),
       ),
     );
   }
