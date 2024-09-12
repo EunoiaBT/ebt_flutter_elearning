@@ -3,10 +3,10 @@ import 'package:ebt_flutter_elearning/core/utils/typedef.dart';
 import 'package:ebt_flutter_elearning/features/welcome/domain/repository/welcome_repository.dart';
 
 class CacheFirstTimer extends UsecaseWithoutParam<void> {
-  final WelcomeRepository _welcomeRepository;
+  final WelcomeRepository _repot;
 
-  const CacheFirstTimer(this._welcomeRepository);
+  const CacheFirstTimer(this._repot);
 
   @override
-  ResultFuture call() async => _welcomeRepository.cacheFirstTimer();
+  ResultFuture call() async => _repot.cacheFirstTimer();
 }
