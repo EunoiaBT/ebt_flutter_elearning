@@ -22,8 +22,11 @@ class LocalDataSourceImpl implements LocalDataSource {
   }
 
   @override
-  Future<bool> checkIfUserIsFirstTimer() {
-    // TODO: implement checkIfUserIsFirstTimer
-    throw UnimplementedError();
+  Future<bool> checkIfUserIsFirstTimer() async {
+    try {
+      return await sl<CacheStore>().checkIfUserIsFirstTimer();
+    } catch (e) {
+      throw CacheException(message: e.toString());
+    }
   }
 }
