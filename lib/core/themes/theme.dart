@@ -1,5 +1,6 @@
 import 'package:ebt_flutter_elearning/core/constants/ebt_color.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/app_bar_theme.dart';
+import 'package:ebt_flutter_elearning/core/themes/custom/bottom_sheet_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/checkbox_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/chip_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/text_theme.dart';
@@ -29,7 +30,7 @@ class EbtAppTheme {
     scaffoldBackgroundColor: EbtColor.appBG,
     appBarTheme: EbtAppBarTheme.lightAppBarTheme,
     checkboxTheme: EbtCheckboxTheme.lightCheckboxTheme,
-    bottomSheetTheme: GfxBottomSheetTheme.lightBottomSheetTheme,
+    bottomSheetTheme: EbtBottomSheetTheme.lightBottomSheetTheme,
     elevatedButtonTheme: GfxElevatedButtonTheme.lightElevatedButtonTheme,
     outlinedButtonTheme: GfxOutlinedButtonTheme.lightOutlinedButtonTheme,
     inputDecorationTheme: GfxTextFieldTheme.lightInputDecorationTheme,
@@ -47,7 +48,7 @@ class EbtAppTheme {
     scaffoldBackgroundColor: EbtColor.dark,
     appBarTheme: EbtAppBarTheme.darkAppBarTheme,
     checkboxTheme: EbtCheckboxTheme.darkCheckboxTheme,
-    bottomSheetTheme: GfxBottomSheetTheme.darkBottomSheetTheme,
+    bottomSheetTheme: EbtBottomSheetTheme.darkBottomSheetTheme,
     elevatedButtonTheme: GfxElevatedButtonTheme.darkElevatedButtonTheme,
     outlinedButtonTheme: GfxOutlinedButtonTheme.darkOutlinedButtonTheme,
     inputDecorationTheme: GfxTextFieldTheme.darkInputDecorationTheme,
