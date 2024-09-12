@@ -51,7 +51,7 @@ Follow these steps to set up the project locally:
 
 The project follows the Clean Architecture principles, with a clear separation of concerns into different layers:
 
-````plaintext
+```plaintext
 lib/
 │
 ├── core/                     # Core functionalities (constants, utilities, etc.)
@@ -77,7 +77,7 @@ lib/
 │
 ├── injection_container.dart  # Dependency injection setup
 └── main.dart                 # The entry point of the app
-
+```
 
 ## Layers in Clean Architecture
 
@@ -91,14 +91,14 @@ We welcome contributions from developers of all skill levels! Here’s how you c
 
 1. **Fork the repository**.
 2. **Create a new branch**:
-    ```bash
-    git checkout -b feature-branch-name
-    ```
+   ```bash
+   git checkout -b feature-branch-name
+   ```
 3. **Make your changes** and commit them with descriptive messages.
 4. **Push to your branch**:
-    ```bash
-    git push origin feature-branch-name
-    ```
+   ```bash
+   git push origin feature-branch-name
+   ```
 5. **Create a pull request** explaining your changes.
 
 Please ensure your code follows our coding standards and adheres to the Clean Architecture principles before submitting a pull request.
@@ -117,4 +117,3 @@ For any questions, suggestions, or issues, feel free to open an issue or reach o
 ## Acknowledgements 🙌
 
 A big thank you to the open-source community for providing the tools and resources that made this project possible.
-````
