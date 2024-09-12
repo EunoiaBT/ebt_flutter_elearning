@@ -32,7 +32,7 @@ class WelcomeCubit extends Cubit<WelcomeState> {
 
   // Method to check if user is first timer
   Future<void> checkIfUserIsFirstTimer() async {
-    emit(const CheckingIfUserIsAlreadyCached());
+    emit(const CheckingIfUserIsFirstTimer());
     final result = await _checkIfUserIsFirstTimer();
 
     result.fold(

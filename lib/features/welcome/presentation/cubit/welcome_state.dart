@@ -14,18 +14,8 @@ class CachingFirstTimer extends WelcomeState {
   const CachingFirstTimer();
 }
 
-class CheckingIfUserIsAlreadyCached extends WelcomeState {
-  const CheckingIfUserIsAlreadyCached();
-}
-
-// CacheFirstTimer
-class CacheTheFirstTimer extends WelcomeState {
-  const CacheTheFirstTimer();
-}
-
-// Check FirstTimer
-class CheckIfUserIsAlreadyCached extends WelcomeState {
-  const CheckIfUserIsAlreadyCached();
+class CheckingIfUserIsFirstTimer extends WelcomeState {
+  const CheckingIfUserIsFirstTimer();
 }
 
 // Error
