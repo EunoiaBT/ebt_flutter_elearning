@@ -29,6 +29,7 @@ dependencies:
   dartz: ^0.10.1
   iconsax: ^0.0.8
   cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
 
 # Dev dependencies
 dev_dependencies:
