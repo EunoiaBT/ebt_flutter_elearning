@@ -23,7 +23,7 @@ List<EbtWelcomeContent> welcomePages = [
     titleCenter: 'Learning Adventure',
     titleRight: '',
     subTitle:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Embark on a journey where knowledge meets excitement, transforming your learning experience into a thrilling adventure.',
   ),
   EbtWelcomeContent(
     image: EbtImage.bookmark,
@@ -31,7 +31,7 @@ List<EbtWelcomeContent> welcomePages = [
     titleCenter: 'Bookmarks',
     titleRight: '',
     subTitle:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Keep track of your progress effortlessly and return to your favorite lessons with a simple tap, ensuring you never miss a beat.',
   ),
   EbtWelcomeContent(
     image: EbtImage.certification,
@@ -39,6 +39,6 @@ List<EbtWelcomeContent> welcomePages = [
     titleCenter: 'Certifications ',
     titleRight: 'with Ease',
     subTitle:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Master your skills and earn certifications with confidence, supported by a streamlined and efficient learning path.',
   ),
 ];

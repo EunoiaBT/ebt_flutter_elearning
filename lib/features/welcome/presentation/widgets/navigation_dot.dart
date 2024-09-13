@@ -23,7 +23,7 @@ class NavigationDot extends StatelessWidget {
         effect: ExpandingDotsEffect(
           activeDotColor: EbtColor.buttonSecondary,
           dotColor: EbtColor.buttonSecondary.withOpacity(0.4),
-          dotHeight: 10,
+          dotHeight: 6,
         ),
         controller: welcomeCubit.pageController,
         onDotClicked: welcomeCubit.dotNavigationClick,
