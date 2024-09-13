@@ -17,7 +17,7 @@ class NavigationDot extends StatelessWidget {
   Widget build(BuildContext context) {
     final welcomeCubit = context.read<WelcomeCubit>();
     return Positioned(
-      bottom: EbtDevice.getBottomNavigationBarHeight() + 22,
+      bottom: EbtDevice.getBottomNavigationBarHeight() + 25,
       left: EbtSize.defaultSpace,
       child: SmoothPageIndicator(
         effect: ExpandingDotsEffect(
