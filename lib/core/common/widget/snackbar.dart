@@ -20,7 +20,7 @@ class EbtSnackbar {
             margin: const EdgeInsets.symmetric(horizontal: 30),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
-              color: EbtxHelper.isDarkMode(context)
+              color: EbtHelper.isDarkMode(context)
                   ? EbtColor.darkerGrey.withOpacity(0.4)
                   : EbtColor.grey.withOpacity(0.9),
             ),

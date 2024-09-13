@@ -7,8 +7,8 @@ class EbtOutlinedButtonTheme {
   static final lightOutlinedButtonTheme = OutlinedButtonThemeData(
     style: OutlinedButton.styleFrom(
       elevation: 0,
-      foregroundColor: EbtColor.black,
-      side: const BorderSide(color: EbtColor.grey),
+      foregroundColor: EbtColor.buttonPrimary,
+      side: const BorderSide(color: EbtColor.buttonPrimary),
       textStyle: const TextStyle(
         fontSize: 16,
         color: Colors.black,
@@ -23,7 +23,7 @@ class EbtOutlinedButtonTheme {
     style: OutlinedButton.styleFrom(
       elevation: 0,
       foregroundColor: EbtColor.white,
-      side: const BorderSide(color: EbtColor.grey),
+      side: const BorderSide(color: EbtColor.buttonPrimary),
       textStyle: const TextStyle(
         fontSize: 16,
         color: Colors.white,

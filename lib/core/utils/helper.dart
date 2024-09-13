@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-class EbtxHelper {
-  EbtxHelper._();
+class EbtHelper {
+  EbtHelper._();
 
   static Color? getColor(String value) {
     if (value == 'Green') {

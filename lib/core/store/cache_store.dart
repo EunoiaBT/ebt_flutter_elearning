@@ -7,14 +7,14 @@ class CacheStore {
   const CacheStore({required SharedPreferences pref}) : _pref = pref;
 
   Future<void> cacheFirstTimer() async {
-    await _pref.setBool(EbtCacheStoreKey.isFirstTimer, true);
+    await _pref.setBool(EbtStoreKey.isFirstTimer, false);
   }
 
   Future<void> clearFirstTimer() async {
-    await _pref.remove(EbtCacheStoreKey.isFirstTimer);
+    await _pref.remove(EbtStoreKey.isFirstTimer);
   }
 
   Future<bool> checkIfUserIsFirstTimer() async {
-    return _pref.getBool(EbtCacheStoreKey.isFirstTimer) ?? false;
+    return _pref.getBool(EbtStoreKey.isFirstTimer) ?? false;
   }
 }

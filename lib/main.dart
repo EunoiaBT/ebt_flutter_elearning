@@ -1,4 +1,5 @@
 import 'package:ebt_flutter_elearning/config/injection/injection.dart';
+import 'package:ebt_flutter_elearning/config/routes/route.dart';
 import 'package:ebt_flutter_elearning/core/themes/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
@@ -26,14 +27,7 @@ class MyApp extends StatelessWidget {
       darkTheme: EbtAppTheme.darkTheme,
       theme: EbtAppTheme.lightTheme,
       builder: EasyLoading.init(),
-      home: Scaffold(
-        body: Center(
-          child: Text(
-            'eLearning Platform',
-            style: TextStyle(fontFamily: 'Roboto', fontSize: 30),
-          ),
-        ),
-      ),
+      onGenerateRoute: onGenerateRoute,
     );
   }
 }

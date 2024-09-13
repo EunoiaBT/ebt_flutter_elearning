@@ -8,7 +8,9 @@ import 'package:ebt_flutter_elearning/features/welcome/domain/repository/welcome
 class WelcomeRepositoryImpl implements WelcomeRepository {
   final LocalDataSource _localDataSource;
 
-  const WelcomeRepositoryImpl(this._localDataSource);
+  const WelcomeRepositoryImpl({
+    required LocalDataSource localDataSource,
+  }) : _localDataSource = localDataSource;
 
   @override
   ResultFuture<void> cacheFirstTimer() async {
