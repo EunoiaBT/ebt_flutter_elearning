@@ -4,8 +4,10 @@ import 'package:ebt_flutter_elearning/core/themes/custom/bottom_sheet_theme.dart
 import 'package:ebt_flutter_elearning/core/themes/custom/checkbox_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/chip_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/elevated_button_theme.dart';
+import 'package:ebt_flutter_elearning/core/themes/custom/icon_button_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/outlined_button_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/switch_theme.dart';
+import 'package:ebt_flutter_elearning/core/themes/custom/text_botton_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/text_field_theme.dart';
 import 'package:ebt_flutter_elearning/core/themes/custom/text_theme.dart';
 import 'package:flutter/material.dart';
@@ -39,6 +41,8 @@ class EbtAppTheme {
     outlinedButtonTheme: EbtOutlinedButtonTheme.lightOutlinedButtonTheme,
     inputDecorationTheme: EbtTextFieldTheme.lightInputDecorationTheme,
     switchTheme: EbtSwitchTheme.lightSwitchTheme,
+    textButtonTheme: EbtTextButtonTheme.lightTextButtonTheme,
+    iconButtonTheme: EbtIconButtonTheme.lightIconButtonTheme,
   );
 
   // Dark Theme
@@ -57,5 +61,7 @@ class EbtAppTheme {
     outlinedButtonTheme: EbtOutlinedButtonTheme.darkOutlinedButtonTheme,
     inputDecorationTheme: EbtTextFieldTheme.darkInputDecorationTheme,
     switchTheme: EbtSwitchTheme.darkSwitchTheme,
+    textButtonTheme: EbtTextButtonTheme.darkTextButtonTheme,
+    iconButtonTheme: EbtIconButtonTheme.darkIconButtonTheme,
   );
 }

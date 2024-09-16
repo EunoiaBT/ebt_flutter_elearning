@@ -11,7 +11,6 @@ class EbtElevatedButtonTheme {
       backgroundColor: EbtColor.buttonPrimary,
       disabledForegroundColor: Colors.grey,
       disabledBackgroundColor: Colors.grey,
-      // side: const BorderSide(color: EbtColor.buttonPrimary),
       padding: const EdgeInsets.symmetric(vertical: 16),
       textStyle: const TextStyle(
         fontSize: 18,
@@ -26,11 +25,10 @@ class EbtElevatedButtonTheme {
   static final darkElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      foregroundColor: Colors.white,
-      backgroundColor: Colors.blue,
+      foregroundColor: EbtColor.white,
+      backgroundColor: EbtColor.buttonPrimary,
       disabledForegroundColor: Colors.grey,
       disabledBackgroundColor: Colors.grey,
-      // side: const BorderSide(color: Colors.blue),
       padding: const EdgeInsets.symmetric(vertical: 16),
       textStyle: const TextStyle(
         fontSize: 18,

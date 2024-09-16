@@ -7,9 +7,8 @@ class EbtColor {
   static const Color appBG = Color(0xFFF4F3F2);
 
   // App Basic Color
-  static const Color primary = Color(0xFF272727);
-  static const Color secondary = Color(0xFFFFE24B);
-  static const Color accent = Color(0xFFb0c7ff);
+  static const Color primary = Color(0xFF246BFD);
+  static const Color secondary = Color(0xFFF9A826);
 
   // Gradient Color
   static const Gradient linearGradient = LinearGradient(
@@ -29,8 +28,8 @@ class EbtColor {
   static const Color selectedTab = Color(0xFFFF8F71);
 
   // Text Color
-  static const Color textPrimary = Color(0xFF333333);
-  static const Color textSecondary = Color(0xFF6c757D);
+  static const Color textPrimary = Color(0xFF246BFD);
+  static const Color textSecondary = Color(0xFFF9A826);
   static const Color textWhite = Colors.white;
 
   // Background Color
@@ -43,13 +42,13 @@ class EbtColor {
   static Color darkContainer = EbtColor.white.withOpacity(0.4);
 
   // Button Color
-  static const Color buttonPrimary = Color(0xFF333333);
-  static const Color buttonSecondary = Color(0xFF6C757D);
+  static const Color buttonPrimary = Color(0xFF246BFD);
+  static const Color buttonSecondary = Color(0xFFF9A826);
   static const Color buttonDisabled = Color(0xFFC4C4C4);
 
   // Border Color
-  static const Color borderPrimary = Color(0xFFD9D9D9);
-  static const Color borderSecondary = Color(0xFFE6E6E6);
+  static const Color borderPrimary = Color(0xFF246BFD);
+  static const Color borderSecondary = Color(0xFFF9A826);
 
   // Validation Color
   static const Color error = Color(0xFFD32F2F);
